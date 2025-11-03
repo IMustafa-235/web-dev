@@ -1,0 +1,29 @@
+php me hum varible $ k sath bana te hain and phir on per operations kr te hain
+
+switch
+php me switch multiple conditions check karne ke liye use hota hai if else ki short tarkeea hai ek type se 
+
+
+get
+php me get se hum data fetch kara sakte hain per ye url per bhi dikhata hai data
+
+
+post
+php me post se hum data fetch kara sakte hain per ye url per data show nhi kara ta
+
+
+cookies 
+cookie browser me hoti hai cookie ko ager hum lagainge or ager os ka time wagera deinge tw wo user ka data otne time tak safe rakhega jitna app ne time dya hai
+
+
+session 
+session  browser me hoti hai session ye same cookies ki tara hota hai per ye zyada use hota hai kyu k ise me direct session kahatm krna ka bhi options wagera hote hain
+
+db connect krna
+<?php
+$connecter = new mysqli("localhost","root","","ecommerce");
+if ($connecter->connect_error) {
+    die("Connection failed: " . $connecter->connect_error);
+  }
+  echo "Connected successfully";
+?>
