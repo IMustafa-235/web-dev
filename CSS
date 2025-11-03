@@ -1,0 +1,104 @@
+
+color and background color 
+ager normal text per color laagana hai tw bus noramly color likho ager background per color lagana hai tw backgroundcolor likho
+
+
+background image
+background per ager image lagani hai tw background-image karo
+image ko set kr ne k lye repeat, size wagera or bhi options hote hain
+
+
+
+
+ager hum kisi html tag ko class deinge tw wo hum or bhi elements per de sakte hain id bhi de skate hain per fark ye hai ager hum sirf ek element per id deinge tw wo zyada better hai kyu k id ka mthlb identifier hota hai thats why 
+
+class
+css me class lagane k lye . ka istamal krna per ta hai or ye mutliple elements per lagain tw zyada better hota hai
+
+
+id
+css me id lagane k lye # ka istamal kr te krna per ta hai or ye ho sake tw ek hi element per lagao 
+
+
+
+
+
+ager container ya kisi or cheez ki width bari krni hai tw width ka istamal karo
+
+ager height apne hisab se deni hai tw height ka istamal karo
+
+
+ager kisi content ya box ya container ko ander kheech na hai tw padding use karo padding ander kiyor cheezon ko khech ta hai
+
+ager kisi content ya box ya container ko bhar kiyo krna hai tw margin use karo margin bhar kiyor cheezon ko phek ta hai
+
+border ager kisi box per border dena hai tw border istamal karo or ager os border ko ko thora ghuma hai tw border radious dedo osse
+
+ager kisi ccheez ki visisblyty kam ya zyada krni hai tw z-index ka istamal karo
+
+
+
+
+
+font ko ager apne hisab se bara ya chota kr na hai tw font-size use karo
+
+
+font ko ager dark ya light krna hai tw font-weight istamal karo
+
+
+font ager apni marzi ka lagana hai like stylish ya sada tw font-family use karo
+
+
+text ager center end ya start me lana hai tw text-align use karo
+
+
+text ko ager underline ya or bhi alag kisam ki decoration wagera krni hai tw font-decoration istalam karo
+
+
+
+
+
+
+media queries css me website ko responsive kr ne k lye use kr te hain me tw kam hi use kr ta hun kyu k bootstrap me mecolumns se responsive kr deta hun per bootstrapse sab kuch responsive nhi hota hai iss lye media queries bhi use krni parti hain
+
+syntax:
+
+@media (max-width: ) {
+  
+  }
+
+
+
+
+
+
+positions 5 type ki use hoti hai jin me se 2 use nhi hoti sticky and static
+use hone wali fixed, relative, absolute 
+
+postion fixed 
+fixed se wo cheez ek jaga chipack jaigi waheeen jahan tumne jis cchceez ko fix kya hai wahan se hilegi nhi
+
+position absoulute and relative ek sath use hoti hain
+absolute se app kisi bhi ccheez ko move kara sakte hain kaaheen bhi jese manlo ek box hai app chate ho os k ander jo box haai wo parent box k top me ajai tw app parent box ko relaative  doge take jo box ko apne absolute dya hai wo body k top me nhi parent k top me aii
+
+
+
+
+
+
+bootstrap ki usefull cheezien
+btns = 4-5 types k hote classes k hisab se app design kr sakte ho
+
+margin bhi hoti hai bootstrap me or padding bhi per total app 5 tak hi de sakte ho
+5 yani 1 ka mthlb 5px ager total 5 tak app de sakte ho mthlb 25px itna enough hota hai
+
+z-index bhi de sakte hain 
+gap bhi de sakte hain
+border-radoius bhi de sakte hain
+
+containers
+noraml container class dogey tw wo automattically responsvive hoga and side se jaga chore ga
+container-fluid se puri width lega
+or bhi kisam k containers hote hain but yehi 2 use hote hain nomrally
+
+issi tara or bhi bhot sari cheezien hoti hain bootstrap me 
