@@ -1,0 +1,117 @@
+DataBase bana ne ka tareeka:
+CREATE DATABASE hospital_db;
+
+
+
+
+Table banae ka tareeka:
+CREATE TABLE students(
+  id INT PRIMARY KEY,
+  name VARCHAR(50),
+  desease VARCHAR(100),
+  days INT
+);
+
+
+
+
+Table me Data Insert krne ka tareeka:
+INSERT INTO students (id, name, age)
+VALUES 
+(2, 'Sara', 22),
+(3, 'Ahmed', 19),
+(4, 'Faiz', 25);
+
+
+
+
+Table me se ekk line delete krne ka tareeka mthlb data jo ek line hoti hai os ko delete kr ne ka (id se hi hota hai ye) tareeka:
+DELETE FROM patients
+WHERE id = 2;
+
+
+
+
+Database delete krne ka tareeeka:
+DROP DATABASE hospital;
+
+
+
+
+Table me se jab sara data delete krna ho tou Truncate use hota hai(structure delete nhi hoga) tareeka:
+TRUNCATE TABLE patients;
+
+
+
+Table k ander jo lika hai os ko update krne ka tareka:
+UPDATE employees
+SET salary = 55000    (salary ek column hai 55000 ali ki salary se update kr rah hai)
+WHERE name = 'Ali';
+
+
+
+
+ALTER:
+ALTER is lye use hota hai k table ka structure me kuch bhi kr na ho add, delete, change and etc use krne ka tareeka:
+
+
+ye ek structure or add kr rah hai table me
+ALTER TABLE employees
+ADD age INT;
+
+
+
+ye ek structure ko dosre name me change kr rah hai
+ALTER TABLE employees
+RENAME COLUMN age TO employee_age;
+
+
+
+ye os table ki datatype ko change kr rah hai
+ALTER TABLE employees
+MODIFY salary DECIMAL(10,2);
+
+
+
+ye column ko delete kr rah hai
+ALTER TABLE employees
+DROP COLUMN employee_age;
+
+
+
+
+ye (table ka name change kr rah hai structure ka nhi)
+ALTER TABLE employees
+RENAME TO staff;
+
+
+
+ye structure k ander jo value hai os ko by default rakhna(mthlb ager koi value nhi di hogi tou os ki jaga ye ajai ga)
+ALTER TABLE employees
+ALTER COLUMN salary SET DEFAULT 30000;
+
+
+
+
+SELECT:
+SELECT query ka use database table se data read (fetch) karne ke liye hota hai
+
+sara data dekh ne k lye
+SELECT * FROM employees;
+
+
+
+specific column dekh ne k lye
+SELECT name, department FROM employees;
+
+
+
+
+
+
+
+
+
+
+
+
