@@ -1,0 +1,196 @@
+variales banate hain data ko store krne k lye variable hi js ka structure khelo kyu k is k ander hi hum data ko store kr k phir operations kr te hain
+
+variables total 3 tarekon k hote hain 
+1, var
+2, let
+3, const 
+
+
+var kyu k kafi purana hogya or ye abb safe bhi nhi hai tw iss se ko use nhi kr ta isi lye hum bhi isse use nhi kr te 
+
+let ek normal varibale hai jo k se hota hai noramlly
+
+const ek thora unique hai kyu k ager apne is k ander koi datastore kr dya os k baad app isse change nhi kr sakte al batttta let me change ho sakta hai 
+
+
+
+
+kisi bho variable ko string me krne k lye "" is k ander likh te hain mthlb wo string hai abb ye number alphabet kuch bhi ho sakta hai and string ki indexxing 0 se churu hoti hai
+
+strings k kafi sare methods bhi hote hain
+
+string ki lenght malum krne k lye .lenght use krte hain
+
+ager string bare alphabet me chaiye tw toUpperCase()
+ager string chote alphabet me chaiye tw toLowerCase()
+
+slice() issse value cut hoti hai
+
+or ager 2 strings merge krni hai tw concat() ka istamal karo
+
+
+
+
+
+array use hota hai multiple values ko store krne k lye and is ki bhi indexxing 0 se hi churu hoti hai
+array k bhi kafi are methods hote hain:
+
+toString() is se data string me convert ho jata hai
+pop()      is se array ka last data jo bhi hoga wo cut hojai ga
+push()     is se array k akhir me data dal sakte hain   
+shift()    is se phele wala data nikalta hai
+unshift()  is se churu me data add kr sakte hain
+splice()   is se data cut hota hai
+map()      ye sare elements ko modify kr ta hai ek new array k ander bhot kam ki cheezz hai
+filter()   ager koi condition lagani hai or  chate ho k ager ye ho tw ye cheezien chalein tw is ka use karo
+
+
+
+
+
+
+
+
+comman cheezien js ki:
+
+alert()
+alert se ek popup ata hai website per bhot sari websites me ata hai
+
+confirm()
+cancel krta hai popup true/false k sath
+
+
+parseInt()
+string ko intergert me badal ta hai
+
+
+
+isNaN()
+dekh ta hai value number tou nhi
+
+
+
+toString()
+number ko string me badal ta hai
+
+
+
+
+console.log()
+console me print hoker ata hai is se
+
+
+Math.random()
+0 - 1 k beech me koi bhi random number generate kr ta hai
+
+
+
+Math.floor()
+Rounds a number down to the nearest interger
+
+
+
+Math.cell()
+Rounds a number up to the nearest interger
+
+
+
+Math.max()
+Returns the largest to the given number
+
+
+
+
+Math.min()
+Return the largest to the given numbers
+
+
+
+
+Date()
+Return the smallest to the given numbers
+
+
+
+Date()
+Return the current date and time
+
+
+
+
+
+ager chate ho k ager esssa ho tw ye bhi hojai tw if else ka use karo if k ander condition dalo k ager essa ho tw chalao 
+or ager essa nah huwa mthlb else lagao or ager chate ho k esa bhi nah ho tw else if use karo
+if( ider contion aiigi ){
+
+} else{
+    
+}
+
+
+
+
+
+function ek block of code hota hai jo ek specific kaam karta hai, aur use baar-baar call karke reuse kiya ja sakta hai
+
+arrow function bhi hota hai
+
+
+
+
+
+classlist
+class add krne k lye classlist.add and remove krne ke lye class.remove use krte hain
+
+innerHTML, textContent
+kisi bhi element me html likh ne k lye
+
+
+settimeout 
+ye ye hota hai k time deker app kisi bhi cheez ko kitni bhi der se lasakte ho
+
+
+setInterval() 
+function kisi function ko repeat karne ke liye use hota hai
+
+try catch
+ye ye krna hai ager app is k ander apna code likhinge or ager koi error hoga tw ye app ko bata dega
+
+locaclstorage
+browser me ek storage hoti hai localstorage k name se is k ander user ka data hum rakh sakte hain temprary
+
+
+onclick()
+is hum html me likh te hain kisi bhi cheez per or phir is k oper jo js likhoge wo chalegi
+
+loops
+ek for loop hota hai, ek for each hota hai and or bhi hote hain per commanly ye hi use ote hain
+loops ek cheez ko bar bar repititive kr ne k lye use krte hain
+
+
+async await
+js work krti hai ager app ne koi function banaya or app chate ho k ye visible hoe thori der k baad tw os k baadd jitni bhi js hogi wo rukh jaigi bolegi phele ye chale phir hi me ageey barunga per async await os se bolta hai k js ko na roko
+
+
+
+
+
+dom se hum id ya class jo bhi hai get kr te hain get kr ne k total 5 tareeke hain 
+id,classname, queryselector,querllyselectorall, bytagname
+
+id sirf ek element k lye get hoti hai 
+tag se jo bhi tag ho ga on sare per lag jaiga 
+all sse sare elements per lagega
+query selector se sirf ek per lagega
+
+addEventListener()
+Adds an event handller to an element
+removeEventListener()
+Removes and event from an element
+
+
+
+
+
+
+
